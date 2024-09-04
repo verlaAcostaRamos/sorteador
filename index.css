@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 body{
-    background-color: aquamarine;
+    background-color: rgb(34, 36, 35);
 }
 
 header .logo{
@@ -19,4 +20,45 @@ header h1{
     text-align: center;
     margin-top: 0;
     font-size: 5rem;
+}
+
+main label input{
+    margin: 1.5rem auto 1.2rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: rgb(1, 30, 56);
+}
+
+main label{
+    padding: 1rem;
+    margin-left: 25rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    font-size: 1.7rem;
+    color: antiquewhite;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: rgb(2, 2, 89);
+    width: 13rem;
+    height: 2.1rem;
+    margin: 2rem auto 1.5rem;
+    display: block;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.drawn-number{
+    margin: 4rem auto;
+    border-radius: 1rem;
+    width: 9rem;
+    height: 4rem;
+    font-size: 3.7rem;
+    background-color: rgb(137, 199, 75);
+    color: aliceblue;
 }
