@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header .logo{
+    margin: 3rem auto 0;
+    display: block;
+    width: 14rem;
+    height: 14rem;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 0;
+    font-size: 5rem;
+}
